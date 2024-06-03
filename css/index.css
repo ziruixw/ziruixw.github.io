@@ -1,0 +1,102 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+
+.navbar{
+  background-image: url("lighter.jpg");
+}
+
+header {
+  padding-top: 120px;
+  padding-bottom: 30px !important;
+  background-image: url("lighter.jpg");
+  line-height: 1.2em;
+}
+
+section{
+  padding: 30px !important;
+}
+
+h1{
+  font-size:3em;
+}
+
+h3{
+  font-size:2em;
+  margin-bottom: 1em;
+}
+
+.navbar-brand{
+  font-size: 2em;
+  font-family: 'Arizonia', Helvetica, sans-serif;  
+}
+
+
+.profile{
+	width:200px;
+	height:220px;
+	border-radius: 50%;
+	border: 5px solid #fff;
+  margin-right:2em;
+}
+
+#profile-text p{
+  margin-bottom: 0.2em;
+}
+
+/*@media (min-width: 992px) {
+  header {
+    padding: 156px 0 100px;
+  }
+}*/
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  color: white;
+}
+
+.fa:hover, .fa:active{
+  color: #d4d6d8;
+  text-decoration: none;
+}
+
+.footnote{
+  color: #d4d6d8;
+
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  header{
+    padding-top: 80px;
+  }
+  .footnote{
+    margin-left: 1em;
+  }
+}
+
+section {
+  padding: 120px 0;
+}
+
+h2{
+  margin-bottom:1em;
+}
+
+
+.publication-title{
+  font-weight: 600;
+}
+
+.publication-sub{
+  font-size: 0.9em;
+  color: rgb(69,69,69);
+}
